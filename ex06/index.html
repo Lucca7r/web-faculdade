@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrutura da Tabela</title>
+    <style>
+        /* Estilo para centralizar o conteúdo */
+        body {
+            text-align: center;
+        }
+        
+        /* Estilo para a tabela */
+        table {
+            border: 1px solid #ccc;
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        
+        /* Estilo para as células da tabela */
+        td {
+            padding: 5px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        /* Estilo para o título da tabela */
+        th {
+            background-color: #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        /* Estilo para a coluna "Queda" */
+        td.queda {
+            background-color: #ddd;
+        }
+        
+        /* Estilo para a coluna "Preço de Lançamento" */
+        td.preco-lancamento:before {
+            content: "R$";
+        }
+    </style>
+</head>
+<body>
+    <h1>A Queda de Preço de Três Marcas de Chips</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Processador</th>
+                <th>Velocidade (MHz)</th>
+                <th>Preço de Lançamento</th>
+                <th>Data de Lançamento</th>
+                <th>Preços em Agosto/2000</th>
+                <th>Queda</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AMD K-6</td>
+                <td>200</td>
+                <td class="preco-lancamento">315</td>
+                <td>Abril/97</td>
+                <td>R$ 107</td>
+                <td class="queda">66%</td>
+            </tr>
+            <tr>
+                <td>AMD K-6</td>
+                <td>233</td>
+                <td class="preco-lancamento">437</td>
+                <td>Maio/97</td>
+                <td>R$ 284</td>
+                <td class="queda">35%</td>
+            </tr>
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>200</td>
+                <td class="preco-lancamento">240</td>
+                <td>Maio/97</td>
+                <td>R$ 188</td>
+                <td class="queda">22%</td>
+            </tr>
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>233</td>
+                <td class="preco-lancamento">320</td>
+                <td>Maio/97</td>
+                <td>R$ 290</td>
+                <td class="queda">9%</td>
+            </tr>
+            <tr>
+                <td>Intel Pentium II</td>
+                <td>233</td>
+                <td class="preco-lancamento">636</td>
+                <td>Maio/97</td>
+                <td>R$ 530</td>
+                <td class="queda">17%</td>
+            </tr>
+            <tr>
+                <td>Intel Pentium II</td>
+                <td>266</td>
+                <td class="preco-lancamento">775</td>
+                <td>Maio/97</td>
+                <td>R$ 699</td>
+                <td class="queda">10%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
