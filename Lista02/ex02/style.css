@@ -1,0 +1,61 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#diagrama {
+    padding: 20px;
+}
+
+#diagrama .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#diagrama .container > * {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 auto;
+}
+
+#diagrama .header,
+#diagrama .footer {
+    flex-basis: 100%;
+}
+
+#diagrama .section,
+#diagrama .aside {
+    flex-basis: 33%;
+}
+
+#diagrama .nav {
+    flex-basis: 20%;
+}
+
+#diagrama .article {
+    flex-basis: 60%;
+}

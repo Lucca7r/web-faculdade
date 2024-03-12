@@ -1,0 +1,49 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+header p {
+    margin-bottom: 5px;
+}
+
+#resumo-profissional {
+    padding: 20px;
+}
+
+#historico-profissional {
+    padding: 20px;
+}
+
+#historico-profissional h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#historico-profissional ul {
+    list-style: none;
+    padding: 0;
+}
+
+#historico-profissional ul li
