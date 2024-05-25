@@ -1,0 +1,49 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* Logo */
+header img {
+  width: 150px;
+  height: auto;
+}
+
+/* Menu */
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Efeito Hover */
+nav li:hover a {
+  border-bottom: 2px solid #fff;
+}
