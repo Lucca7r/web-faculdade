@@ -7,8 +7,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
+    "start": "node ex01/index.js",
+    "dev": "node --watch ex01/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
